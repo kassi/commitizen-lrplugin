@@ -6,6 +6,9 @@ authors = ["Karsten Silkenbäumer <993392+kassi@users.noreply.github.com>"]
 readme = "README.md"
 packages = [{include = "commitizen_lrplugin", from = "src"}]
 
+[tool.poetry.plugins."commitizen.provider"]
+commitizen-lrplugin = "commitizen_lrplugin.lrplugin_version_provider:LRPluginVersionProvider"
+
 [tool.poetry.dependencies]
 python = "^3.12"
 
