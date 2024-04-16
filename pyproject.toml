@@ -14,6 +14,7 @@ python = "^3.12"
 commitizen = "^3.22.0"
 pytest = "^8.1.1"
 pytest-watcher = "^0.4.2"
+pytest-mock = "^3.14.0"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
