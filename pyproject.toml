@@ -12,6 +12,8 @@ python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
 commitizen = "^3.22.0"
+pytest = "^8.1.1"
+pytest-watcher = "^0.4.2"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
@@ -21,6 +23,10 @@ version_provider = "poetry"
 update_changelog_on_bump = true
 major_version_zero = true
 change_type_map = { feat = "Features", fix = "Bug fixes" }
+
+[tool.pytest-watcher]
+now = true
+clear = true
 
 [build-system]
 requires = ["poetry-core"]
