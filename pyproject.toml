@@ -10,7 +10,7 @@ packages = [{include = "commitizen_lrplugin", from = "src"}]
 commitizen-lrplugin = "commitizen_lrplugin.lrplugin_version_provider:LRPluginVersionProvider"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 
 
 [tool.poetry.group.dev.dependencies]
